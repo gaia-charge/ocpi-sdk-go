@@ -1,4 +1,4 @@
-# GLCharge/client-ocpi
+# OCPI-go
 
 Welcome 👋
 
@@ -6,6 +6,10 @@ This repository contains client libraries for OCPI (Open Charge Point Interface)
 Every OCPI version has its own OpenAPI specification that is used to generate the client using `oapi-codegen` generator.
 For more detailed documentation about the OCPI protocol and its APIs please read the
 official [OCPI documentation](https://evroaming.org/app/uploads/2021/11/OCPI-2.2.1.pdf)
+
+| Version | Supported | Docs                                                   |
+|:--------|:----------|:-------------------------------------------------------|
+| 2.2.1   | Yes       | [Link](https://www.github.com/ChargePi/ocpi/2.1.1/api) |
 
 ## Installation
 
@@ -16,12 +20,8 @@ official [OCPI documentation](https://evroaming.org/app/uploads/2021/11/OCPI-2.2
 ## Usage
 
 ```go
-import OCPI "https://github.com/GLCharge/ocpi/<ocpi-version>"
+import "github.com/GLCharge/ocpi/<ocpi-version>"
 ```
-
-## Documentation
-
-- [2.2.1](https://www.github.com/GLCharge/ocpi/2.1.1/api/)
 
 ## Generation
 
