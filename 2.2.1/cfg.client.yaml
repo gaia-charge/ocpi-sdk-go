@@ -1,0 +1,8 @@
+package: ocpi_v221
+output: client/client.gen.go
+generate:
+  models: true
+  client: true
+output-options:
+  # to make sure that all types are generated
+  skip-prune: true
