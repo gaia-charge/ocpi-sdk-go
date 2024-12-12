@@ -10,13 +10,13 @@ This repository contains client and server libraries for OCPI (Open Charge Point
 ## Installation
 
 ```bash
- go get github.com/GLCharge/ocpi@latest
+go get github.com/ChargePi/ocpi/2.2.1@latest
 ```
 
 ## Usage
 
 ```go
-import "github.com/GLCharge/ocpi/ocpi_v<ocpi-version>"
+import "github.com/ChargePi/ocpi/<ocpi-version>"
 ```
 
 ## Generation
