@@ -1,5 +1,5 @@
 package: ocpi_v221
-output: server/server.gen.go
+output: 2.2.1/server/server.gen.go
 generate:
   models: true
   gin-server: true

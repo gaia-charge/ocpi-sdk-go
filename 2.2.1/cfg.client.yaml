@@ -1,5 +1,5 @@
 package: ocpi_v221
-output: client/client.gen.go
+output: 2.2.1/client/client.gen.go
 generate:
   models: true
   client: true
